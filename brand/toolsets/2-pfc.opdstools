@@ -1,0 +1,151 @@
+{
+  "format": "open-pdf-studio/tool-set",
+  "version": 1,
+  "exportedAt": "2026-11-15T04:30:00.000Z",
+  "app": "FrameWorX Estimator",
+  "toolSet": {
+    "name": "PFC",
+    "items": [
+      {
+        "id": "fwx-pfc-01",
+        "name": "PFC-150",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-150",
+          "subject": "PFC-150",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-02",
+        "name": "PFC-180",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-180",
+          "subject": "PFC-180",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-03",
+        "name": "PFC-200",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-200",
+          "subject": "PFC-200",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-04",
+        "name": "PFC-230",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-230",
+          "subject": "PFC-230",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-05",
+        "name": "PFC-250",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-250",
+          "subject": "PFC-250",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-06",
+        "name": "PFC-300",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-300",
+          "subject": "PFC-300",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-pfc-07",
+        "name": "PFC-380",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#B23A48",
+          "strokeColor": "#B23A48",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "PFC-380",
+          "subject": "PFC-380",
+          "measureShowLabel": true
+        }
+      }
+    ]
+  }
+}

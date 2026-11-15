@@ -1,0 +1,51 @@
+{
+  "format": "open-pdf-studio/tool-set",
+  "version": 1,
+  "exportedAt": "2026-11-15T04:30:00.000Z",
+  "app": "FrameWorX Estimator",
+  "toolSet": {
+    "name": "Universal Beam",
+    "items": [
+      {
+        "id": "fwx-universal-beam-01",
+        "name": "360 UB 56.7",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#212121",
+          "strokeColor": "#212121",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "360 UB 56.7",
+          "subject": "360 UB 56.7",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-universal-beam-02",
+        "name": "410 UB 59.7",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#212121",
+          "strokeColor": "#212121",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "410 UB 59.7",
+          "subject": "410 UB 59.7",
+          "measureShowLabel": true
+        }
+      }
+    ]
+  }
+}

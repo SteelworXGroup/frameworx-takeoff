@@ -1,0 +1,551 @@
+{
+  "format": "open-pdf-studio/tool-set",
+  "version": 1,
+  "exportedAt": "2026-11-15T04:30:00.000Z",
+  "app": "FrameWorX Estimator",
+  "toolSet": {
+    "name": "SHS",
+    "items": [
+      {
+        "id": "fwx-shs-01",
+        "name": "SHS-40x40x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-40x40x2",
+          "subject": "SHS-40x40x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-02",
+        "name": "SHS-40x40x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-40x40x3",
+          "subject": "SHS-40x40x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-03",
+        "name": "SHS-50x50x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-50x50x3",
+          "subject": "SHS-50x50x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-04",
+        "name": "SHS-50x50x3 GAL",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-50x50x3 GAL",
+          "subject": "SHS-50x50x3 GAL",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-05",
+        "name": "SHS-50x50x5 GAL",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-50x50x5 GAL",
+          "subject": "SHS-50x50x5 GAL",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-06",
+        "name": "SHS-65x65x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x2",
+          "subject": "SHS-65x65x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-07",
+        "name": "SHS-65x65x2 LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x2 LM",
+          "subject": "SHS-65x65x2 LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-08",
+        "name": "SHS-65x65x2.5 LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x2.5 LM",
+          "subject": "SHS-65x65x2.5 LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-09",
+        "name": "SHS-65x65x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x3",
+          "subject": "SHS-65x65x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-10",
+        "name": "SHS-65x65x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x4",
+          "subject": "SHS-65x65x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-11",
+        "name": "SHS-65x65x4 LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x4 LM",
+          "subject": "SHS-65x65x4 LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-12",
+        "name": "SHS-65x65x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x5",
+          "subject": "SHS-65x65x5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-13",
+        "name": "SHS-65x65x5 LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-65x65x5 LM",
+          "subject": "SHS-65x65x5 LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-14",
+        "name": "SHS-75x75x2.5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-75x75x2.5",
+          "subject": "SHS-75x75x2.5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-15",
+        "name": "SHS-75x75x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-75x75x3",
+          "subject": "SHS-75x75x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-16",
+        "name": "SHS-75x75x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-75x75x4",
+          "subject": "SHS-75x75x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-17",
+        "name": "SHS-75x75x4 GAL",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-75x75x4 GAL",
+          "subject": "SHS-75x75x4 GAL",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-18",
+        "name": "SHS-75x75x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-75x75x5",
+          "subject": "SHS-75x75x5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-19",
+        "name": "SHS-89x89x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-89x89x2",
+          "subject": "SHS-89x89x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-20",
+        "name": "SHS-89x89x2 GAL LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-89x89x2 GAL LM",
+          "subject": "SHS-89x89x2 GAL LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-21",
+        "name": "SHS-89x89x3.5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-89x89x3.5",
+          "subject": "SHS-89x89x3.5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-22",
+        "name": "SHS-89x89x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-89x89x5",
+          "subject": "SHS-89x89x5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-23",
+        "name": "SHS-89x89x5 GAL LM",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-89x89x5 GAL LM",
+          "subject": "SHS-89x89x5 GAL LM",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-24",
+        "name": "SHS-100x100x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-100x100x4",
+          "subject": "SHS-100x100x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-25",
+        "name": "SHS-100x100x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-100x100x5",
+          "subject": "SHS-100x100x5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-26",
+        "name": "SHS-125x125x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-125x125x4",
+          "subject": "SHS-125x125x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-shs-27",
+        "name": "SHS-125x125x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#7B2CBF",
+          "strokeColor": "#7B2CBF",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "SHS-125x125x5",
+          "subject": "SHS-125x125x5",
+          "measureShowLabel": true
+        }
+      }
+    ]
+  }
+}

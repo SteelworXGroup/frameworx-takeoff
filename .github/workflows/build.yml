@@ -1,0 +1,142 @@
+name: Build FrameWorX Takeoff
+
+# Builds the branded Mac and Windows installers from a pinned release of
+# Open PDF Studio (LGPL-3.0, OpenAEC Foundation) plus the files in brand/.
+# The installers are unsigned; they are attached to the run as artifacts.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, brand-build]
+    paths:
+      - 'brand/**'
+      - 'UPSTREAM_VERSION'
+      - '.github/workflows/build.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: macos-26
+            target: macos
+          - platform: windows-latest
+            target: windows
+    runs-on: ${{ matrix.platform }}
+    timeout-minutes: 120
+
+    steps:
+      - name: Check out branding
+        uses: actions/checkout@v6
+        with:
+          path: overlay
+
+      - name: Read pinned upstream version
+        id: pin
+        shell: bash
+        run: echo "ref=$(tr -d '[:space:]' < overlay/UPSTREAM_VERSION)" >> "$GITHUB_OUTPUT"
+
+      - name: Check out Open PDF Studio
+        uses: actions/checkout@v6
+        with:
+          repository: OpenAEC-Foundation/open-pdf-studio
+          ref: ${{ steps.pin.outputs.ref }}
+          path: src
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: '1.99.1'
+
+      - name: Install Rust targets (macOS universal)
+        if: matrix.target == 'macos'
+        run: rustup target add aarch64-apple-darwin x86_64-apple-darwin
+
+      - name: Apply FrameWorX branding
+        shell: bash
+        run: python3 overlay/brand/apply_brand.py src overlay/brand
+
+      - name: Install frontend dependencies
+        working-directory: src/open-pdf-studio
+        run: npm ci
+
+      - name: Generate app icons
+        working-directory: src/open-pdf-studio
+        shell: bash
+        run: |
+          npx tauri icon ../../overlay/brand/icon.png
+          cp src-tauri/icons/icon.ico public/icon.ico
+          cp src-tauri/icons/icon.ico public/favicon.ico
+
+      # ── Windows ────────────────────────────────────────────────────────────
+      - name: Build sidecar and thumbnail handler (Windows)
+        if: matrix.target == 'windows'
+        shell: pwsh
+        working-directory: src
+        run: |
+          cargo build --release -p pdfium-worker -p open-pdf-thumbnails
+          New-Item -ItemType Directory -Force open-pdf-studio/src-tauri/binaries | Out-Null
+          Copy-Item target/release/pdfium-worker.exe open-pdf-studio/src-tauri/binaries/pdfium-worker-x86_64-pc-windows-msvc.exe -Force
+          Copy-Item target/release/open_pdf_thumbnails.dll open-pdf-studio/src-tauri/binaries/open-pdf-thumbnails.dll -Force
+
+      - name: Build installer (Windows)
+        if: matrix.target == 'windows'
+        working-directory: src/open-pdf-studio
+        run: npm run tauri -- build --bundles nsis
+
+      # ── macOS ──────────────────────────────────────────────────────────────
+      - name: Build sidecar (macOS universal)
+        if: matrix.target == 'macos'
+        working-directory: src
+        run: |
+          cargo build --release -p pdfium-worker --target aarch64-apple-darwin
+          cargo build --release -p pdfium-worker --target x86_64-apple-darwin
+          mkdir -p open-pdf-studio/src-tauri/binaries
+          cp target/aarch64-apple-darwin/release/pdfium-worker open-pdf-studio/src-tauri/binaries/pdfium-worker-aarch64-apple-darwin
+          cp target/x86_64-apple-darwin/release/pdfium-worker open-pdf-studio/src-tauri/binaries/pdfium-worker-x86_64-apple-darwin
+          lipo -create -output open-pdf-studio/src-tauri/binaries/pdfium-worker-universal-apple-darwin \
+            target/aarch64-apple-darwin/release/pdfium-worker \
+            target/x86_64-apple-darwin/release/pdfium-worker
+
+      - name: Prepare libpdfium.dylib (macOS)
+        if: matrix.target == 'macos'
+        working-directory: src/open-pdf-studio
+        run: |
+          npm run prepare:native-runtime
+          codesign --force --sign - src-tauri/binaries/macos-universal/libpdfium.dylib
+
+      # No Apple developer certificate yet: "-" gives an ad-hoc signature, which
+      # Apple Silicon needs to run the app at all. Gatekeeper still warns on
+      # first launch.
+      - name: Build disk image (macOS)
+        if: matrix.target == 'macos'
+        working-directory: src/open-pdf-studio
+        env:
+          APPLE_SIGNING_IDENTITY: '-'
+        run: npm run tauri -- build --target universal-apple-darwin --bundles dmg
+
+      # ── Results ────────────────────────────────────────────────────────────
+      - name: Upload installer (macOS)
+        if: matrix.target == 'macos'
+        uses: actions/upload-artifact@v7
+        with:
+          name: FrameWorX-Takeoff-macOS
+          path: src/target/universal-apple-darwin/release/bundle/dmg/*.dmg
+          if-no-files-found: error
+
+      - name: Upload installer (Windows)
+        if: matrix.target == 'windows'
+        uses: actions/upload-artifact@v7
+        with:
+          name: FrameWorX-Takeoff-Windows
+          path: src/target/release/bundle/nsis/*.exe
+          if-no-files-found: error
