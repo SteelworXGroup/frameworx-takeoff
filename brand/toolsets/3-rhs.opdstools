@@ -1,0 +1,191 @@
+{
+  "format": "open-pdf-studio/tool-set",
+  "version": 1,
+  "exportedAt": "2026-11-15T04:30:00.000Z",
+  "app": "FrameWorX Estimator",
+  "toolSet": {
+    "name": "RHS",
+    "items": [
+      {
+        "id": "fwx-rhs-01",
+        "name": "RHS-75x50x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-75x50x2",
+          "subject": "RHS-75x50x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-02",
+        "name": "RHS-100x50x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-100x50x2",
+          "subject": "RHS-100x50x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-03",
+        "name": "RHS-100x50x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-100x50x3",
+          "subject": "RHS-100x50x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-04",
+        "name": "RHS-100x50x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-100x50x4",
+          "subject": "RHS-100x50x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-05",
+        "name": "RHS-100x50x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-100x50x5",
+          "subject": "RHS-100x50x5",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-06",
+        "name": "RHS-150x50x2",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-150x50x2",
+          "subject": "RHS-150x50x2",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-07",
+        "name": "RHS-150x50x3",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-150x50x3",
+          "subject": "RHS-150x50x3",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-08",
+        "name": "RHS-150x50x4",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-150x50x4",
+          "subject": "RHS-150x50x4",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-rhs-09",
+        "name": "RHS-150x50x5",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#00897B",
+          "strokeColor": "#00897B",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "RHS-150x50x5",
+          "subject": "RHS-150x50x5",
+          "measureShowLabel": true
+        }
+      }
+    ]
+  }
+}

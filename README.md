@@ -14,7 +14,7 @@ Open PDF Studio.
 |---|---|
 | `UPSTREAM_VERSION` | The Open PDF Studio release the build is based on |
 | `brand/icon.png` | FrameWorX icon, used for the app and installer icons |
-| `brand/frameworx-takeoff.opdstools` | The take-off tool set the app starts with |
+| `brand/toolsets/` | The standard tool sets: take-off, plus one per structural section type |
 | `brand/apply_brand.py` | Renames the app and applies the items above |
 | `.github/workflows/build.yml` | Builds the Mac and Windows installers |
 

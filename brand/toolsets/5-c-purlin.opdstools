@@ -1,0 +1,251 @@
+{
+  "format": "open-pdf-studio/tool-set",
+  "version": 1,
+  "exportedAt": "2026-11-15T04:30:00.000Z",
+  "app": "FrameWorX Estimator",
+  "toolSet": {
+    "name": "C Purlin",
+    "items": [
+      {
+        "id": "fwx-c-purlin-01",
+        "name": "C15010",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C15010",
+          "subject": "C15010",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-02",
+        "name": "C15015",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C15015",
+          "subject": "C15015",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-03",
+        "name": "C15019",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C15019",
+          "subject": "C15019",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-04",
+        "name": "C15024",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C15024",
+          "subject": "C15024",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-05",
+        "name": "C20015",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C20015",
+          "subject": "C20015",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-06",
+        "name": "C20019",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C20019",
+          "subject": "C20019",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-07",
+        "name": "C20024",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C20024",
+          "subject": "C20024",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-08",
+        "name": "C25015",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C25015",
+          "subject": "C25015",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-09",
+        "name": "C25019",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C25019",
+          "subject": "C25019",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-10",
+        "name": "C25024",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C25024",
+          "subject": "C25024",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-11",
+        "name": "C30019",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C30019",
+          "subject": "C30019",
+          "measureShowLabel": true
+        }
+      },
+      {
+        "id": "fwx-c-purlin-12",
+        "name": "C30024",
+        "type": "measureDistance",
+        "createdAt": "2026-11-15T04:30:00.000Z",
+        "layer": {
+          "name": "FrameWorX Structural",
+          "color": "#424242"
+        },
+        "props": {
+          "color": "#6B8E23",
+          "strokeColor": "#6B8E23",
+          "lineWidth": 3.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "C30024",
+          "subject": "C30024",
+          "measureShowLabel": true
+        }
+      }
+    ]
+  }
+}
