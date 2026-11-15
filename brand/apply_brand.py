@@ -134,6 +134,34 @@ def main():
     if named == 0:
         sys.exit("brand: could not name the FrameWorX schedule in any language")
 
+    # 6. Keep the tool name on a mark-up when the PDF is saved and reopened.
+    #    Upstream holds the name (measureName) in memory only, so a reopened
+    #    take-off exported an empty Label column. Store it in its own key.
+    must_replace(
+        app / "js" / "pdf" / "saver" / "annotatie-algemeen.js",
+        "  if (ann.altText) dict.set(N('OPS_AltText'), pdfTextString(String(ann.altText)));\n",
+        "  if (ann.altText) dict.set(N('OPS_AltText'), pdfTextString(String(ann.altText)));\n"
+        "  if (ann.measureName && !heeft('OPS_MeasureName')) {\n"
+        "    dict.set(N('OPS_MeasureName'), pdfTextString(String(ann.measureName)));\n"
+        "  }\n",
+        1,
+    )
+    must_replace(
+        app / "js" / "pdf" / "loader" / "color-extraction.js",
+        "      if (altTekst) colors.opsAltText = altTekst;\n",
+        "      if (altTekst) colors.opsAltText = altTekst;\n"
+        "      const fwxMeasureName = leesPdfTekst(context, annotDict.get(PDFName.of('OPS_MeasureName')));\n"
+        "      if (fwxMeasureName) colors.opsMeasureName = fwxMeasureName;\n",
+        1,
+    )
+    must_replace(
+        app / "js" / "pdf" / "loader" / "annotatie-algemeen.js",
+        "  if (e.opsAltText && m.altText === undefined) uit.altText = e.opsAltText;\n",
+        "  if (e.opsAltText && m.altText === undefined) uit.altText = e.opsAltText;\n"
+        "  if (e.opsMeasureName && !m.measureName) uit.measureName = e.opsMeasureName;\n",
+        1,
+    )
+
     print(f"brand: applied {NEW} ({renamed} translation files, {len(sets)} tool sets)")
 
 
