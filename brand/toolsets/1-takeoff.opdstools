@@ -349,6 +349,48 @@
         "createdAt": "2026-11-14T12:40:00.000Z"
       },
       {
+        "id": "fwx-19",
+        "name": "TRUSS",
+        "type": "measureArea",
+        "props": {
+          "color": "#009688",
+          "strokeColor": "#009688",
+          "lineWidth": 2.0,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "TRUSS",
+          "subject": "TRUSS",
+          "measureShowLabel": true,
+          "fillColor": "#009688",
+          "fillOpacity": 0.2
+        },
+        "layer": {
+          "name": "FrameWorX Takeoff",
+          "color": "#0068DB"
+        },
+        "createdAt": "2026-11-16T03:00:00.000Z"
+      },
+      {
+        "id": "fwx-20",
+        "name": "TRUSS SPAN",
+        "type": "measureDistance",
+        "props": {
+          "color": "#009688",
+          "strokeColor": "#009688",
+          "lineWidth": 2.5,
+          "measureUnit": "m",
+          "measurePrecision": 3,
+          "measureName": "TRUSS SPAN",
+          "subject": "TRUSS SPAN",
+          "measureShowLabel": true
+        },
+        "layer": {
+          "name": "FrameWorX Takeoff",
+          "color": "#0068DB"
+        },
+        "createdAt": "2026-11-16T03:00:00.000Z"
+      },
+      {
         "id": "fwx-18",
         "name": "FLOOR",
         "type": "measureArea",
